@@ -1,0 +1,25 @@
+baseurl = "https://daphne-61A-resources.com"
+languageCode = "en-us"
+title = "Daphne's Discussion Notes"
+theme = "hugo-grapes"
+enableEmoji = true
+
+[permalinks]
+  post = "/posts/:slug/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "past weeks identifier"
+    name = "Previous Weeks"
+    url = "past-weeks"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "CS61A"
+    name = "CS61A"
+    url = "https://cs61a.org"
+    weight = 30
+
+[params]
+avatar = "img/grapes.svg"
