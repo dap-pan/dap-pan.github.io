@@ -26,12 +26,14 @@
     background: #f2fbff;
     text-align: center;
   }
-  .header {
+  .custom-header {
     padding: 0px;
     text-align: right;
     background: #ffedfa;
     color: black;
     font-size: 20px;
+    top: 0;
+    width: 100%;
   }
   .homepage {
     margin: 0;
@@ -49,13 +51,19 @@
   }
   .custom-button {
     border-style: hidden;
-    border: 2px hidden #28bfff;
+    border: 2px hidden #f2fbff;
     background: #e6f8ff;
   }
   .custom-button-heading {
     border-style: hidden;
-    border: 2px hidden #28bfff;
+    border: 2px hidden #ffedfa;
     background: #fce4f5;
+  }
+  .custom-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
   }
   /**
    * Render the `main` element consistently in IE.
