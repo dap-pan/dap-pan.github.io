@@ -4,24 +4,26 @@
 <html>
     <div class="header">
         <a href="https://cs61a.org" class="button">cs61a.org</a>
-        <button class = "unstyled-button" onclick="window.location.href = '/past-weeks.html'">Past Weeks</button>
+        <button class = "custom-button-heading" onclick="window.location.href = 'https://cs61a.org'">Official 61A Site</button>
+        <button class = "custom-button-heading" onclick="window.location.href = '/past-weeks.html'">Past Weeks</button>
     </div>
     
     <!--<body style="background-color:F9C4E4FF">-->
     <div class="homepage">
-        <h1 style="color:black">Reminders</h1>
-        <h2 style="color:black">this is smaller text</h2>
+        <h1 >Reminders</h1>
+        <p>
+            &bull; Exam 1 is on Monday, MM/DD/YYYY
+            <br>&bull; CSM signups are open! Check Piazza for details
+        </p>
     </div>
-    <!-- example of embedding a universal link -->
-    <a href="https://cs61a.org">cs61a.org</a>
-    <!-- testing embedding a relative link-->
-    <br><a href="/about.html">About</a>
-    <!-- this actually causes the file to download which might be useful later-->
-    <br><button class="unstyled-button" onclick="document.location.href='/feedback.php'">Drop some feedback!</button>
-    <!-- this also causes the file to download; this seems to be a php problem and not actually the html-->
-    <br><a href="/feedback.php">Feedback!</a>
+    <div class="homepage">
+        <h1>
+            <a href="/past-weeks/test.pdf">Discussion 00 Blank Notes</a>
+        </h1>
+    </div>
 
     <footer>
-        <button class = "unstyled-button" onclick="window.location.href = '/about.html'">About</button>
+        <button class = "custom-button" onclick="window.location.href = '/about.html'">About</button>
+        <button class = "custom-button" onclick="window.location.href = '/past-semesters.html'">Past Semesters</button>
     <footer>
 </html>

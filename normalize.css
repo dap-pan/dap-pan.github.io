@@ -38,9 +38,24 @@
     color: black;
     background: #e6f8ff;
     text-align: center;
+    border-style: double;
     border: 2px double #28bfff;
     border-radius: 5px;
-    border-style: double;
+  }
+  .unstyled-button {
+    border: none;
+    padding: 0;
+    background: none;
+  }
+  .custom-button {
+    border-style: hidden;
+    border: 2px hidden #28bfff;
+    background: #e6f8ff;
+  }
+  .custom-button-heading {
+    border-style: hidden;
+    border: 2px hidden #28bfff;
+    background: #fce4f5;
   }
   /**
    * Render the `main` element consistently in IE.
@@ -215,11 +230,6 @@
   [type="reset"],
   [type="submit"] {
     -webkit-appearance: button;
-  }
-  .unstyled-button {
-    border: none;
-    padding: 0;
-    background: none;
   }
   
   /**
