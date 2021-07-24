@@ -1,16 +1,26 @@
 <!DOCTYPE html>
+<link href="normalize.css" rel="stylesheet">
 <!-- This is a comment -->
 <html>
-    <body style="background-color:F9C4E4">
-        <h1>Hello World!</h1>
-        <h2>this is smaller text</h2>
-        <h3> this is even smaller text</h3>
+    <div class="header">
+        <form action="https://cs61a.org">
+            <input class = "unstyled-button" value="cs61a.org" />
+        </form>
+        <button class = "unstyled-button" onclick="window.location.href = '/about.html'">About</button>
+    </div>
+    
+    <!--<body style="background-color:F9C4E4FF">-->
+    <body>
+        <h1 style="color:black">Welcome to my page!</h1>
+        <h2 style="color:black">this is smaller text</h2>
+        <h3 style="color:black"> this is even smaller text</h3>
     </body>
     <!-- example of embedding a universal link -->
     <a href="https://cs61a.org">cs61a.org</a>
     <!-- testing embedding a relative link-->
     <br><a href="/about.html">About</a>
-    <!-- this actually causes the file to download which will be useful later-->
-    <br><button type="button" onclick="document.location.href='/feedback.php'">Drop some feedback!</button>
+    <!-- this actually causes the file to download which might be useful later-->
+    <br><button class="unstyled-button" onclick="document.location.href='/feedback.php'">Drop some feedback!</button>
+    <!-- this also causes the file to download; this seems to be a php problem and not actually the html-->
     <br><a href="/feedback.php">Feedback!</a>
 </html>
