@@ -9,21 +9,36 @@
     </div>
     
     <!--<body style="background-color:F9C4E4FF">-->
-    <div class="homepage">
+    <div class="reminders-rectangle">
         <h1 >Reminders</h1>
         <p>
             &bull; Exam 1 is on Monday, MM/DD/YYYY
             <br>&bull; CSM signups are open! Check Piazza for details
         </p>
     </div>
-    <div class="homepage">
+    <div class="pdf-rectangle">
         <h1>
-            <a href="/past-weeks/test.pdf">Discussion 00 Blank Notes</a>
+            <a href="/past-weeks/test.pdf">Disc 00 Blank Notes</a>
         </h1>
     </div>
 
     <div class="custom-footer">
-        <button class = "custom-button" onclick="window.location.href = '/about.html'">About</button>
-        <button class = "custom-button" onclick="window.location.href = '/past-semesters.html'">Past Semesters</button>
+        <button class = "custom-button-footer" onclick="window.location.href = '/about.html'">About</button>
+        <button class = "custom-button-footer" onclick="window.location.href = '/past-semesters.html'">Past Semesters</button>
     </div>
 </html>
+
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+    <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+    <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
