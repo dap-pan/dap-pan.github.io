@@ -36,16 +36,6 @@
     text-align: center;
     display: inline-block;
   }
-  .download-block {
-    margin: 0;
-    color: black;
-    background: #f2fbff;
-    text-align: center;
-    display: flex;
-    flex: 1;
-    align: center;
-    width: 100%;
-  }
   .reminders-rectangle {
     margin: auto;
     color: black;
@@ -57,7 +47,21 @@
     width: 50%;
     align: center;
     font-size: 30px;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+  }
+
+/** 
+* Note Downloads
+**/
+  .download-block {
+    margin: 0;
+    color: black;
+    background: #f2fbff;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: center;
   }
   .pdf-rectangle {
     margin: auto;
@@ -68,10 +72,13 @@
     border: 2px double #28bfff;
     border-radius: 10px;
     width: 25%;
-    align: right;
     font-size: 15px;
-    font-size: 2vw;
-    margin: 0;
+    font-size: 3vw;
+    margin: 10;
+  }
+  .pdf-rectangle:hover {
+    background-color: #28bfff;
+    color: white;
   }
   .note-rectangle {
     margin: auto;
@@ -82,10 +89,9 @@
     border: 2px hidden #28bfff;
     border-radius: 10px;
     width: 25%;
-    align: left;
-    margin: 0;
     font-size: 15px;
-    font-size: 2vw;
+    font-size: 3vw;
+    margin: 10;
   }
   /** 
   * Header and footer
@@ -107,7 +113,7 @@
   }
 
   /**
-  * Buttons
+  * Header and Footer Buttons
   **/
   .unstyled-button {
     border: none;
