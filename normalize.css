@@ -44,6 +44,7 @@
     display: flex;
     flex: 1;
     align: center;
+    width: 100%;
   }
   .reminders-rectangle {
     margin: auto;
@@ -70,6 +71,7 @@
     align: right;
     font-size: 15px;
     font-size: 2vw;
+    margin: 0;
   }
   .note-rectangle {
     margin: auto;
@@ -131,6 +133,14 @@
   }
   .custom-button-footer:hover {
     background-color: #cef0ff;
+  }
+  .custom-button-footer-active {
+    border-style: hidden;
+    border: 2px hidden #f2fbff;
+    border-radius: 5px;
+    background: #f2fbff;
+    cursor: pointer;
+    background-color: #d8f2fd;
   }
   /**
   * Sidebar

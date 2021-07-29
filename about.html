@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <link href="normalize.css" rel="stylesheet">
 <html>
-    <div class="custom-header">
-        <button class = "custom-button-heading" onclick="window.location.href = '/'">Home</button>
-        <button class = "custom-button-heading" onclick="window.location.href = 'https://cs61a.org'">Official 61A Site</button>
-        <button class = "custom-button-heading" onclick="window.location.href = '/past-weeks.html'">Past Weeks</button>
-    </div>
+    <div class="sidebar">
+        <a href="#home">Home</a>
+        <a href="/past-weeks">Past Weeks</a>
+        <a href="https://cs61a.org">CS61A</a>
+      </div>
+    <body>
     <body>
     <h1>About the Site</h1>
     <p>This is a website made with the guidance of Dr. Adam Anderson. It was made as part of the DigHum150A curriculum, as a project working with
@@ -21,7 +22,7 @@
         </p>
     </body>
     <div class="custom-footer">
-        <button class = "custom-button" onclick="window.location.href = '/about.html'">About</button>
-        <button class = "custom-button" onclick="window.location.href = '/past-semesters.html'">Past Semesters</button>
+        <button class = "custom-button-footer-active" onclick="window.location.href = '/about.html'">About</button>
+        <button class = "custom-button-footer" onclick="window.location.href = '/past-semesters.html'">Past Semesters</button>
     </div>
 </html>
