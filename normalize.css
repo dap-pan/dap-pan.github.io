@@ -36,6 +36,15 @@
     text-align: center;
     display: inline-block;
   }
+  .download-block {
+    margin: 0;
+    color: black;
+    background: #f2fbff;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    align: center;
+  }
   .reminders-rectangle {
     margin: auto;
     color: black;
@@ -58,7 +67,23 @@
     border: 2px double #28bfff;
     border-radius: 10px;
     width: 25%;
-    align: center;
+    align: right;
+    font-size: 15px;
+    font-size: 2vw;
+  }
+  .note-rectangle {
+    margin: auto;
+    color: black;
+    background: #f2fbff;
+    text-align: center;
+    border-style: double;
+    border: 2px hidden #28bfff;
+    border-radius: 10px;
+    width: 25%;
+    align: left;
+    margin: 0;
+    font-size: 15px;
+    font-size: 2vw;
   }
   /** 
   * Header and footer
@@ -139,6 +164,28 @@
   .sidebar a:hover:not(.active) {
     background-color: #ffedfa;
     color: black;
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
   }
   /**
    * Render the `main` element consistently in IE.
