@@ -26,7 +26,7 @@
   body {
     margin: 0;
     color: black;
-    background: #f2fbff;
+    background: #d5ffe5;
     text-align: center;
   }
   .page-contents {
@@ -59,7 +59,7 @@
   .download-block {
     margin: 0;
     color: black;
-    background: #f2fbff;
+    background: #d5ffe5;
     text-align: center;
     display: flex;
     flex: 1;
@@ -221,7 +221,7 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f2fbff;
+    background-color: #d5ffe5;
     position: fixed;
     height: 100%;
     overflow: auto;
