@@ -106,6 +106,35 @@
     color: #0093ff;
     z-index: 100;
   }
+  .btn-group pdf-button {
+    margin: auto;
+    color: black;
+    background: #e6f8ff;
+    text-align: center;
+    border-style: double;
+    border: 2px double #28bfff;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 15px;
+    font-size: 3vw;
+    margin: 10;
+    z-index: 100;
+  }
+  .btn-group note-button {
+    margin: auto;
+    color: black;
+    background: #f2fbff;
+    text-align: center;
+    border-style: double;
+    border: 2px hidden #28bfff;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 15px;
+    font-size: 3vw;
+    margin: 10;
+    z-index: 100;
+  }
+  
   /**
   * Wide rectangle
   **/
