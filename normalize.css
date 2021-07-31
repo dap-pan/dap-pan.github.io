@@ -52,6 +52,9 @@
     font-size: 2.5vw;
     z-index: 1000;
   }
+  .heading-rectangle {
+    z-index: 1000;
+  }
 
 /** 
 * Note Downloads
