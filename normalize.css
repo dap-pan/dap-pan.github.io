@@ -93,6 +93,11 @@
     font-size: 3vw;
     margin: 10;
   }
+
+  .note-rectangle:hover {
+    background-color: #f2fbff;
+    color: #0093ff;
+  }
   /**
   * Wide rectangle
   **/
@@ -166,7 +171,8 @@
     border-radius: 5px;
     background: #f2fbff;
     cursor: pointer;
-    background-color: #d8f2fd;
+    background-color: #3da9d8;
+    color: white;
   }
   /**
   * Sidebar
