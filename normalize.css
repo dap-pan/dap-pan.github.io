@@ -93,6 +93,26 @@
     font-size: 3vw;
     margin: 10;
   }
+  /**
+  * Wide rectangle
+  **/
+  .wide-rectangle {
+    margin: auto;
+    color: black;
+    background: #e6f8ff;
+    text-align: center;
+    border-style: double;
+    border: 2px double #28bfff;
+    border-radius: 10px;
+    width: 75%;
+    font-size: 15px;
+    font-size: 3vw;
+    margin: 10;
+  }
+  .wide-rectangle:hover {
+    background-color: #28bfff;
+    color: white;
+  }
   /** 
   * Header and footer
   **/
@@ -121,8 +141,8 @@
     background: #e6f8ff;
   }
   .custom-button-footer {
-    border-style: hidden;
-    border: 2px hidden #f2fbff;
+    border-style: solid;
+    border: 2px hidden black;
     border-radius: 5px;
     background: #f2fbff;
     cursor: pointer;
@@ -172,13 +192,13 @@
   }
    
   .sidebar a.active {
-    background-color: #ffd2f1;
-    color: black;
+    background-color: #e29ccc;
+    color: white;
     border: 2px unset black;
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #ffedfa;
+    background-color: #fcdaf2;
     color: black;
   }
   div.content {
