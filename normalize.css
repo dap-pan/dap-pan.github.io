@@ -87,6 +87,7 @@
   .pdf-rectangle:hover {
     background-color: #28bfff;
     color: white;
+    cursor: pointer;
     z-index: 100;
   }
   .note-rectangle {
@@ -107,6 +108,7 @@
   .note-rectangle:hover {
     background-color: #f2fbff;
     color: #0093ff;
+    cursor: pointer;
     z-index: 100;
   }
   .btn-group pdf-button {
