@@ -32,11 +32,11 @@
   .page-contents {
     margin: 0;
     color: black;
-    background: #f2fbff;
+    background: white;
     text-align: center;
     display: inline-block;
     position: relative;
-    z-index: 100;
+    width: 70%;
   }
   .reminders-rectangle {
     margin: auto;
@@ -60,10 +60,24 @@
     border-style: double;
     border: 2px double #28bfff;
     border-radius: 10px;
+    width: 50%;
+    align: center;
+    font-size: 10px;
+    font-size: 2vw;
+    z-index: 1000;
+  }
+  .para-rectangle {
+    margin: auto;
+    color: black;
+    background: #e6f8ff;
+    text-align: center;
+    border-style: double;
+    border: 2px double #28bfff;
+    border-radius: 10px;
     width: 100%;
     align: center;
-    font-size: 15px;
-    font-size: 2.5vw;
+    font-size: 10px;
+    font-size: 2vw;
     z-index: 1000;
   }
 
