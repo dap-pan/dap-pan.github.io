@@ -339,6 +339,7 @@
     background-color: white;
     width: 70%;
     position: relative;
+    text-align: center;
     z-index:100;
   }
   /**
