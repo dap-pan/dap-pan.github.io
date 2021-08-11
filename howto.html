@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <link href="normalize.css" rel="stylesheet">
 <html>
+<body>
     <div class="sidebar">
         <a href="/">Home</a>
         <a href="/past-weeks">Past Weeks</a>
@@ -11,29 +12,46 @@
         <br>
         hi the embedded videos are still just placeholders
         <br>
-        <button type="button" class="collapsible">Open Collapsible</button>
-        <div class="heading-rectangle">
-            <h1>Welcome to the site!</h1>
-                <p>
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </p>
-        </div>
+        <button type="button" class="collapsible"><h3>Welcome to the site!</h3></button>
+            <div class="collapsible-content">
+                <div class="heading-rectangle">
+                        <p>
+                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+                </div>
+            </div>
         <br>
-        <button type="button" class="collapsible">Open Collapsible</button>
-        <div class="heading-rectangle">
-            <h1>How it was made!</h1>
-                <p>
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </p>
-
-                <a href="https://docs.google.com/document/d/1G4nIrAtYzwePQfj_hei8iCjN7y9bD8EWLbmHnu67rxE/edit?usp=sharing">Development Notes + links</a>
-                
-                
-        </div>
+        <button type="button" class="collapsible"><h3>How it was made!</h3></button>
+            <div class="collapsible-content">
+                <div class="heading-rectangle">
+                        <p>
+                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+        
+                        <a href="https://docs.google.com/document/d/1G4nIrAtYzwePQfj_hei8iCjN7y9bD8EWLbmHnu67rxE/edit?usp=sharing">Development Notes + links</a>
+                </div>
+            </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="custom-footer">
         <button class = "custom-button-footer" onclick="window.location.href = '/about.html'">About</button>
         <button class = "custom-button-footer" onclick="window.location.href = '/past-semesters.html'">Past Semesters</button>
     </div>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+        });
+    }
+</script>
+</body>
 </html>
