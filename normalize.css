@@ -315,7 +315,7 @@
     text-align: center;
     border-style: double;
     border-radius: 10px;
-    border: 2px double #e6f8ff;
+    border: 2px double #28bfff;
     width: 50%;
     font-size: 15px;
     font-size: 3vw;
@@ -336,7 +336,8 @@
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: white;
+    width: 70%;
   }
   /**
    * Render the `main` element consistently in IE.
