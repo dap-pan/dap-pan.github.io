@@ -338,6 +338,8 @@
     overflow: hidden;
     background-color: white;
     width: 70%;
+    position: relative;
+    z-index:100;
   }
   /**
    * Render the `main` element consistently in IE.
