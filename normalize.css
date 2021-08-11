@@ -344,6 +344,21 @@
     align: center;
     z-index:100;
   }
+
+  .collapsible-rectangle {
+    margin: auto;
+    color: black;
+    background: #e6f8ff;
+    text-align: center;
+    border-style: double;
+    border: 2px double #28bfff;
+    border-radius: 10px;
+    width: 75%;
+    align: center;
+    font-size: 10px;
+    font-size: 2vw;
+    z-index: 1000;
+  }
   /**
    * Render the `main` element consistently in IE.
    */
